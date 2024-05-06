@@ -1,0 +1,95 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.title{
+  font-family: 'Poppins', sans-serif;
+
+} */
+.icon_box {
+  /* width: 400px; */
+  height: 350px;
+  text-align: center;
+  padding: 70px;
+  transition: all ease-in-out 0.3s;
+  background: rgb(242, 220, 178);
+  box-shadow: 0px 5px 90px 0px rgba(223, 234, 23, 0.05);
+  border-radius: 20px;
+  border: 2px solid orange;
+  border-radius: 50px;
+  height: auto;
+}
+.icon_box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+
+.icon_box .icon i {
+  font-size: 46px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.icon_box h4 {
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+
+.icon_box h4:hover {
+  color: black;
+}
+
+.icon_box h4 a {
+  color: #124265;
+  transition: ease-in-out 0.3s;
+}
+
+.icon_box h4 a:hover {
+  color: black;
+  transition: ease-in-out 0.3s;
+}
+
+.icon_box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.icon_box p:hover {
+  color: #124265;
+}
+
+.icon1:hover {
+  color: #b32a2a;
+  transform: scale(0.8);
+}
+.icon2:hover {
+  color: #2285f7;
+  transform: scale(0.8);
+}
+.icon3:hover {
+  color: #2ed1c3;
+  transform: scale(0.8);
+}
+.icon4:hover {
+  color: #cd2adb;
+  transform: scale(0.8);
+}
+.icon5:hover {
+  color: #6111ca;
+  transform: scale(0.8);
+}
+.icon6:hover {
+  color: #bfca26;
+  transform: scale(0.8);
+}
+
+.icon_box:hover {
+  transform: scale(1.02);
+  background-color: rgb(230, 191, 119);
+  color: black;
+  /* change to zoom when hover */
+}

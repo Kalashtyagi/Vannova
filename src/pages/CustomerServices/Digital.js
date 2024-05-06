@@ -1,0 +1,10 @@
+function Digital() {
+  return (
+    <>
+      <div style={{ width: "100%", height: "700px", textAlign: "center" }}>
+        <h1 style={{ color: "orange" }}>Digital Marketing</h1>
+      </div>
+    </>
+  );
+}
+export default Digital;

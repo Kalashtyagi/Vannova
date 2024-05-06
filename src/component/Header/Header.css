@@ -1,0 +1,28 @@
+.nav-link:hover {
+  color: orange !important;
+}
+.header-hover:hover {
+  color: white !important;
+  text-decoration: none;
+  background: orange !important;
+}
+.header-hover > u {
+  color: #26317f;
+}
+.header-hover:hover > u {
+  color: white;
+  text-decoration: none;
+}
+.header-hover.underline {
+  position: relative;
+}
+
+.header-vannova {
+  color: white;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .vannova {
+    margin-left: 10px;
+  }
+}

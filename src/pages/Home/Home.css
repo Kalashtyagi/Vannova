@@ -1,0 +1,26 @@
+.three-column-block {
+  overflow: hidden;
+  position: relative;
+  border: none;
+  border-radius: 0%;
+
+  /* border: 2px solid yellow; */
+  padding: 2rem;
+  background-color: #14284b;
+}
+.three-column-block .card {
+  background-color: #14284b;
+  color: white;
+  /* padding: 1rem; */
+  border: none;
+}
+.three-column-block .btn {
+  background-color: #8ac700;
+  border: none;
+  border-radius: 0%;
+  margin-bottom: 2rem;
+}
+.three-column-block .btn:hover {
+  background-color: skyblue;
+  border: none;
+}

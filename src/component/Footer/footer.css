@@ -1,0 +1,10 @@
+.f-logo {
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .f-logo {
+    margin-left: 22px;
+  }
+}
